@@ -102,9 +102,4 @@ Once initialized, navigate to `http://127.0.0.1:5000` inside your browser to int
 
 ---
 
-## 🚀 Live Cloud Deployment
 
-The architecture is configured for continuous delivery via Git tracking connected directly to a cloud infrastructure cluster hosted on **Render**:
-
-* The production server boots up efficiently using a standard Linux container layer execution guided by the entry rules defined inside the project `Procfile`.
-* All connections parse clean `POST` form request arrays, routing calculations safely away from client viewpoints directly through the cloud-based `car_price_model.pkl` matrix without any hardcoded fallback conditions.
